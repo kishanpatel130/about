@@ -1,0 +1,27 @@
+
+
+h1  { font-size:60px;	
+	font-family:Comic Sans MS;
+	color: yellow; 
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+    padding-left: 160px;
+}
+
+pre {
+	color: cyan;
+	font-size: 32px;
+	padding-top: 0px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+}
+a{
+	color:white; 
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:line-through;
+}
+
