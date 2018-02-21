@@ -1,27 +1,215 @@
 
-
-h1  { font-size:60px;	
-	font-family:Comic Sans MS;
-	color: yellow; 
-    padding-top: 50px;
-    padding-right: 80px;
-    padding-bottom: 0px;
-    padding-left: 160px;
+h1  { font-size:60px;   
+    font-family:Comic Sans MS;
+    color: #e2472f; 
+    margin-bottom: 0px; 
+    margin-top: 10px;
 }
 
 pre {
-	color: cyan;
-	font-size: 32px;
-	padding-top: 0px;
-    padding-right: 80px;
-    padding-bottom: 100px;
-    padding-left: 10px;
+    color: cyan;
+    font-size: 36px;
+       font-family: 'Delius';
+ 
 }
-a{
-	color:white; 
-	text-decoration: none;
+
+.about
+{
+    font-family: 'Tangerine', serif;
+    font-size: 90px;
+    margin-left: 270px;
+    margin-right: 0px; 
 }
-a:hover{
-	text-decoration:line-through;
+
+
+.bar {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    background: linear-gradient(to right,grey,black,black,black);
 }
+
+.bar1 {
+    float: right;
+    margin-right: 30px; 
+
+}
+
+.bar1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bar1 a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #e2472f;
+}
+
+
+
+.info{
+    color:white; 
+    text-decoration: none;
+}
+.info:hover{
+    text-decoration:line-through;
+}
+
+
+.back
+{
+    background: linear-gradient(to right, grey,black,black,black);
+}
+
+
+.logo
+{
+    display: flex;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 78%;
+    left: 29%;
+}
+
+.logo li
+{
+    list-style: none;
+}
+
+.logo li a
+{
+width: 70px;
+height: 70px;
+text-align: center;
+background: #a9a9a9;
+line-height: 75px;
+font-size: 50px;
+margin-left: 20px;
+margin-right: 50px;  
+margin-top: 30px;
+display: block; 
+border-radius: 40%;
+position: relative;
+overflow: hidden;
+border: 3px solid #a9a9a9 ;
+z-index: 1;
+}
+
+.logo li a .fa
+{
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+
+}
+
+.logo li a:hover .fa
+{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+.logo li a:before
+{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+
+
+}
+
+.logo li a:hover:before
+{
+    top: 0;
+
+}
+
+.logo li:nth-child(1) a:before
+{
+    background: #3b5999;
+}
+
+.logo li:nth-child(2) a:before
+{
+    background: #e4405f;
+}
+
+.logo li:nth-child(3) a:before
+{
+    background: #55acee;
+}
+
+.logo li:nth-child(4) a:before
+{
+    background: #554488;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
